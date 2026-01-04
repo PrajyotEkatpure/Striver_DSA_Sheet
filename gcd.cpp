@@ -8,3 +8,10 @@ public:
 return gcd;
     }
 };
+/*
+we can aslo use eculidean therom also
+gcd(a,b) == gcd(a-b,b)
+gcd(10,20) == gcd (20-10,10) 
+gcd(10,10) == gcd(0,10)
+:. GCD = 10
+*/
